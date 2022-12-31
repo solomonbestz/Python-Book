@@ -9,16 +9,31 @@ if __name__=="__main__":
 
 # RANDOM MODULE 
 
-import random
+# import random
 
+
+# if __name__=='__main__':
+
+#     my_list = [1, 2, 6, 5, 9, 3]
+
+#     rand_item = random.choice(my_list)
+#     print(rand_item)
+
+#     rand_num = random.randint(1, 10)
+
+#OS MODULE
+
+from os import system
 
 if __name__=='__main__':
+    print("Playing with the system method")
 
-    my_list = [1, 2, 6, 5, 9, 3]
+    user_input = input("Do you want to clear screen?: ")
 
-    rand_item = random.choice(my_list)
-    print(rand_item)
+    if user_input.lower() == "yes":
+        system('cls')
+        print('We have cleared the screen')
+    else:
+        print("You don't want to clear the screen.")
 
-    rand_num = random.randint(1, 10)
 
-    
