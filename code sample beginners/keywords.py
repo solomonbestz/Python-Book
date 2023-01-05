@@ -4,14 +4,13 @@
 This logical operator contains 5 words that return either True or False
 They are 'and','or','not','in', 'is'
 """
-
 name = "Solomon Bestz"
-new_name = name
+age = 1000
+is_male = True
 
-
-if new_name is name:
-    # print("True")
-    pass
+if is_male == True and age == 1000:
+    print("True")
+    
 
 """
 The 'is' keyword return True if a variable points to another variable
