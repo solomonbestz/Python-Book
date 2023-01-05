@@ -32,18 +32,19 @@ There are several datatypes, but i would be listing just the basic 4
 The String(str), The Integer(int), The floating(float), The boolean(bool)
 """
 
-is_coding_fun = True # This is a boolean data type
+string_data_type1 = 'I am single quote' # This is a single quote string
+string_data_type2 = "I am double quote" # This is a double quote string
+string_data_type3 = '''I am triple quote''' # This is a triple quote string
 
-float_data_type = 34.56 # This is a float data type
 
 positive_int_data_type = 24 # This is a positive integer data type
 negative_int_data_type = -24 # This is a negative integer data type
 
 
 
-string_data_type1 = 'I am single quote' # This is a single quote string
-string_data_type2 = "I am double quote" # This is a double quote string
-string_data_type3 = '''I am triple quote''' # This is a triple quote string
+is_coding_fun = True # This is a boolean data type
+float_data_type = 34.56 # This is a float data type
+
 
 
 # LET US UPDATE OUR BAG STORE PROGRAM
