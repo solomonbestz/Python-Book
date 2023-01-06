@@ -3,8 +3,9 @@
 from calculation import add_calc
 
 if __name__=="__main__":
-    # print(add_calc(34, 50))
     pass
+    # print(add_calc(34, 50))
+   
 
 
 # RANDOM MODULE 
@@ -13,13 +14,16 @@ if __name__=="__main__":
 
 
 # if __name__=='__main__':
-
+    
 #     my_list = [1, 2, 6, 5, 9, 3]
 
 #     rand_item = random.choice(my_list)
 #     print(rand_item)
 
 #     rand_num = random.randint(1, 10)
+
+# rand_num = random.randint(1, 10)
+#     print(rand_num)
 
 #OS MODULE
 
