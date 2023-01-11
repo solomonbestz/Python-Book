@@ -1,12 +1,15 @@
 # OPENING FILE
 
+
+
 file_object = open("code sample beginners/test.txt", "r")
+
+lines = []
+for line in file_object:
+    lines.append(line)
 file_object.close()
-print(f"""
-File Name: {file_object.name}
-File Mode: {file_object.mode}
-File Closed?: {file_object.closed}
-""")
+
+print(lines)
 
 
 
