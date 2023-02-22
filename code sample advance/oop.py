@@ -1,0 +1,6 @@
+#CLASS 
+
+class ClassName:
+    pass
+
+
